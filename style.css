@@ -36,7 +36,7 @@ body {
     background-color: #E5E5E5;
     height: auto;
     margin-top: 15px;
-    width: 80%;
+    width: 90%;
     border-radius: 2%;
     top: 25%;
 }
@@ -161,7 +161,7 @@ a {
     width: 50px;
     height: 50px;
     position: relative;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 .info {
@@ -222,6 +222,10 @@ a {
         bottom: 0;
         height: 396vh;      
     }
+    .info{
+        margin-top: 20px;
+        margin-left: 25px;
+    }
     #part-2 {
         margin-top: -10%;
     }
@@ -235,7 +239,7 @@ a {
         font-size: 26px;
         line-height: 10px;
         margin-top: 29px;
-        margin-left: 22px;
+        margin-left: -2px;
         line-height: 1;
     }
     .social-media {
@@ -248,7 +252,9 @@ a {
     .icon {
         width: 25px;
         height: 25px;
+        margin-left: 10px;
     }
+    
     .page-color {
         height: 120vh;
     }
@@ -260,7 +266,7 @@ a {
         font-size: 14px;
         color: #1E1E1E;
         width: 90%;
-        line-height: 18px;
+        line-height: 22px;
     }
     .info-p {
         font-size: 12px;
