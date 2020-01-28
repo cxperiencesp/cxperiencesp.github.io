@@ -35,7 +35,7 @@ margin: 0;
 .white-board{
     position: absolute;
     background-color: #E5E5E5;;
-    height: 130vh;
+    height: 300vh;
     width: 80%;
     border-radius: 5%;
     top: 25%;
@@ -232,4 +232,91 @@ color: #2E2D2D;
     color: #2E2D2D;
     width: 88%;
     }
+}
+
+
+.div-programacao {
+    display: flex;
+    justify-content: center;
+}
+
+.h2-sub-titles {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #1B358E;
+}
+
+.div-horarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div-horarios>div {
+    margin-top: 83px;
+}
+
+.div-horarios>div>p {
+    color: #2E2D2D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    margin: 0 23px 30px 0;
+}
+
+.div-info-evento {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 83px;
+}
+
+.div-info-evento-green {
+    color: #189C35;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.div-info-evento-black {
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 79px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+}
+
+.div-n-comparecer {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.div-n-comparecer > p {
+    margin-top: 53px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2E2D2D;
+}
+
+.div-ingressos{
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+}
+
+.widget{
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
 }
