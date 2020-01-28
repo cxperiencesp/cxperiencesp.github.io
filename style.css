@@ -130,11 +130,10 @@ a {
 
 .title {
     margin-top: 28px;
-    margin-left: 28px;
     font-family: Actor;
     font-style: normal;
     font-weight: normal;
-    font-size: 75px;
+    font-size: 50px;
     line-height: 79px;
     letter-spacing: 0.03em;
     font-feature-settings: 'liga' off;
@@ -144,7 +143,7 @@ a {
 .text {
     margin-top: 28px;
     margin-left: 28px;
-    width: 50%;
+    width: 94%;
 }
 
 .paragraph {
@@ -180,6 +179,12 @@ a {
     text-align: justify;
     letter-spacing: 0.05em;
     color: #2E2D2D;
+}
+
+.header-costumizado{
+    display: flex;
+    justify-content: center;
+    margin-left: 26px;
 }
 
 @media (max-width: 600px) {
@@ -231,6 +236,7 @@ a {
         line-height: 10px;
         margin-top: 29px;
         margin-left: 22px;
+        line-height: 1;
     }
     .social-media {
         margin-left: -10px;
