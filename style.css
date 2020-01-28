@@ -1,12 +1,11 @@
 body{
 margin: 0;
 
-
 }
 
 .hearder{
     position: relative ;
-    background-color:#F25E6A;
+    background-color: #EFF25E;
     height: 30vw;
     width: 100vw;
 }
@@ -39,5 +38,103 @@ margin: 0;
     height: 130vh;
     width: 80%;
     border-radius: 5%;
-    top: 15%;
+    top: 25%;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.mobile-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+ #button-center{
+     margin-right: 20px ;
+ }
+
+ #button-final{
+     margin-left: -25px ;
+ }
+
+.button{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 50px;
+padding-right: 10px;
+letter-spacing: 0.03em;
+width: 166px;
+height: 50px;
+left: 40px;
+top: 32px;
+}
+
+.hearder-itens{
+
+}
+
+.title{
+margin-top: 28px;
+margin-left: 28px;
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 75px;
+line-height: 79px;
+letter-spacing: 0.03em;
+font-feature-settings: 'liga' off;
+color: #1B358E;
+}
+
+@media (max-width: 600px) {
+    .header-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mobile-button{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .button{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        color: #2E2D2D;
+     }
+
+    .white-board{
+        top: 20%;
+    }
+
+    #part-2{
+        margin-top: -10%;
+    }
+    #button-center{
+        margin-right: 0;
+    }
+   
+    #button-final{
+        margin-left:0;
+    }
+
+    .title{
+        font-size: 36px;
+        line-height: 16px;
+     
+    }
+
 }
