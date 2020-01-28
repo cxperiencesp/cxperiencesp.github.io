@@ -353,6 +353,7 @@ a {
     line-height: 50px;
     letter-spacing: 0.03em;
     color: #1B358E;
+    margin-top: 50px;
 }
 
 .div-horarios {
@@ -423,7 +424,6 @@ a {
 .div-ingressos {
     display: flex;
     justify-content: center;
-    margin-top: 83px;
 }
 
 .widget {
