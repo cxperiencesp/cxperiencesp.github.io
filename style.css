@@ -133,6 +133,23 @@ color:  #1E1E1E;
     margin-left: 10px;
 }
 
+.info{
+margin-top: 70px;
+margin-left: 28px;
+width: 95%;
+}
+
+.info-p{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 23px;
+line-height: 30px;
+text-align: justify;
+letter-spacing: 0.05em;
+
+color: #2E2D2D;
+}
 
 @media (max-width: 600px) {
     .header-buttons{
@@ -207,5 +224,12 @@ color:  #1E1E1E;
         color: #1E1E1E;
         width: 90%;
         line-height: 18px;
+    }
+
+    .info-p{
+    font-size: 12px;
+    line-height: 12px;
+    color: #2E2D2D;
+    width: 88%;
     }
 }
