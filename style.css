@@ -76,6 +76,7 @@ width: 166px;
 height: 50px;
 left: 40px;
 top: 32px;
+
 }
 
 .hearder-itens{
@@ -99,6 +100,7 @@ color: #1B358E;
     .header-buttons{
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
     }
     
     .mobile-button{
@@ -114,10 +116,13 @@ color: #1B358E;
         font-size: 16px;
         letter-spacing: 0.03em;
         color: #2E2D2D;
+        width: 100px;
+        margin-top: 1px;
      }
 
     .white-board{
-        top: 20%;
+        top: 12%;
+        bottom: 0;
     }
 
     #part-2{
@@ -132,9 +137,20 @@ color: #1B358E;
     }
 
     .title{
-        font-size: 36px;
-        line-height: 16px;
+        font-size: 26px;
+        line-height: 10px;
+        margin-top: 29px;
+        margin-left: 22px;
+    }
      
+    
+
+    .page-color{
+        height: 120vh;
+    }
+
+    .lateral{
+        height: 100vh;
     }
 
 }
