@@ -80,7 +80,19 @@ top: 32px;
 }
 
 .hearder-itens{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
+.social-media{
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
 }
 
 .title{
@@ -95,6 +107,32 @@ letter-spacing: 0.03em;
 font-feature-settings: 'liga' off;
 color: #1B358E;
 }
+
+.text{
+margin-top: 28px;
+margin-left: 28px;
+width: 50%;
+
+}
+
+.paragraph{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+color:  #1E1E1E;
+}
+
+.icon{
+    border-radius: 50%;
+    background-color: #1B358E;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 10px;
+}
+
 
 @media (max-width: 600px) {
     .header-buttons{
@@ -120,8 +158,8 @@ color: #1B358E;
         margin-top: 1px;
      }
 
-    .white-board{
-        top: 12%;
+     .white-board{
+        top: 20%;
         bottom: 0;
     }
 
@@ -142,8 +180,19 @@ color: #1B358E;
         margin-top: 29px;
         margin-left: 22px;
     }
+    .social-media{
+        margin-left: -10px;
+        margin-top: -20px;
+    }
      
-    
+    .hearder{
+        height: 60vw ;
+    }
+
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
 
     .page-color{
         height: 120vh;
@@ -152,5 +201,11 @@ color: #1B358E;
     .lateral{
         height: 100vh;
     }
-
+    .paragraph{
+        font-style: normal;
+        font-size: 14px;
+        color: #1E1E1E;
+        width: 90%;
+        line-height: 18px;
+    }
 }
