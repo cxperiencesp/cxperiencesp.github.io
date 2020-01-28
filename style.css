@@ -241,6 +241,7 @@ color: #2E2D2D;
 }
 
 .h2-sub-titles {
+    font-family: Actor;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -250,6 +251,7 @@ color: #2E2D2D;
 }
 
 .div-horarios {
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -260,6 +262,7 @@ color: #2E2D2D;
 }
 
 .div-horarios>div>p {
+    font-family: Actor;
     color: #2E2D2D;
     font-style: normal;
     font-weight: normal;
@@ -277,6 +280,7 @@ color: #2E2D2D;
 }
 
 .div-info-evento-green {
+    font-family: Actor;
     color: #189C35;
     font-style: normal;
     font-weight: normal;
@@ -285,6 +289,7 @@ color: #2E2D2D;
 }
 
 .div-info-evento-black {
+    font-family: Actor;
     font-weight: 300;
     font-size: 35px;
     line-height: 79px;
@@ -293,12 +298,14 @@ color: #2E2D2D;
 }
 
 .div-n-comparecer {
+    font-family: Actor;
     display: flex;
     flex: row;
     justify-content: space-around;
 }
 
 .div-n-comparecer > p {
+    font-family: Actor;
     margin-top: 53px;
     font-style: normal;
     font-weight: normal;
