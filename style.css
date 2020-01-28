@@ -166,7 +166,7 @@ a {
 
 .icon {
     border-radius: 50%;
-    background-color: #1B358E;
+    background-color: #07102E;
     width: 50px;
     height: 50px;
     position: relative;
@@ -235,7 +235,7 @@ a {
     .white-board {
         top: 20%;
         bottom: 0;
-        height: 500vh;
+        height: 430vh;
         border-radius: 1%;
     }      
     
@@ -345,6 +345,20 @@ a {
         justify-content: center;
       
     }
+
+    .logo-footer{
+    height: 47px;
+    width: 222px;
+    }
+
+     .header-social-media{
+    height:106px;
+    }
+
+   .header-social-media-items{
+    flex-direction: column;
+    }
+    
     
 }
 
@@ -486,14 +500,22 @@ a {
 
 .header-social-media{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     height: 233px;
     background: #07102E;
+   
 
 }
+
+div#sympla-widget-773264{
+width: 600px;
+}
+
+
 
 .header-social-media-items{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
 }
