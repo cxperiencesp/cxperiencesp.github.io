@@ -33,7 +33,7 @@ body {
 
 .white-board {
     position: absolute;
-    background-color: #E5E5E5;
+    background-color: #F3F1E8;
     height: auto;
     margin-top: 15px;
     width: 90%;
@@ -151,6 +151,15 @@ a {
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
+    line-height: 40px;
+    color: #1E1E1E;
+}
+
+.smaller-paragraph{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
     line-height: 40px;
     color: #1E1E1E;
 }
@@ -276,6 +285,16 @@ a {
         width: 90%;
         line-height: 22px;
     }
+    .smaller-paragraph{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 22px;
+        color: #1E1E1E;
+        width: 90%;
+    }
+    
     .info-p {
         font-size: 12px;
         line-height: 12px;
@@ -299,6 +318,7 @@ a {
     }
     .div-n-comparecer>p {
         font-size: 18px!important;
+        margin-top: 10px !important;
     }
     .div-info-evento {
         margin-top: 20px!important;
@@ -318,6 +338,14 @@ a {
     flex-direction: column;
     margin-left: 5px;
     }
+
+    .div-n-comparecer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    
 }
 
 .div-palestrantes {
