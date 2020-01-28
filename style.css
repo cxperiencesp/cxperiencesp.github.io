@@ -197,6 +197,7 @@ color: #2E2D2D;
         margin-top: 29px;
         margin-left: 22px;
     }
+    
     .social-media{
         margin-left: -10px;
         margin-top: -20px;
@@ -232,7 +233,37 @@ color: #2E2D2D;
     color: #2E2D2D;
     width: 88%;
     }
+
+    .h2-sub-titles{
+        margin-top: 23px!important;
+    }
+    .div-horarios >div{
+        margin-top: 20px!important;
+    }
+
+    .div-horarios>div>p{
+        font-size: 18px!important;
+    }
+
+    .div-info-evento-green{
+        font-size: 18px!important;
+        
+    }
+    .div-info-evento-black{
+        font-size: 18px!important;
+    }
+    .div-n-comparecer > p{
+        font-size: 18px!important;
+    }
+
+    .div-info-evento{
+        margin-top: 20px!important ;
+    }
+    .white-board{
+        height: 310vh;
+    }
 }
+
 
 
 .div-programacao {
