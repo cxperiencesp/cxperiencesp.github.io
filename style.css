@@ -234,6 +234,14 @@ a {
     }
     .white-board {
         top: 20%;
+        bottom: 0;
+        height: 500vh;
+        border-radius: 1%;
+    }      
+    
+    .info{
+        margin-top: 20px;
+        margin-left: 25px;
     }
     #part-2 {
         margin-top: -10%;
