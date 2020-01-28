@@ -313,7 +313,7 @@ a {
     height: 244px;
     border-radius: 50%;
     background-color: #1E1E1E;
-    margin-top: 83px;
+    margin-top: 60px;
     margin-bottom: 45px;
 }
 
@@ -369,7 +369,7 @@ a {
 }
 
 .div-horarios>div {
-    margin-top: 83px;
+    margin-top: 60px;
 }
 
 .div-horarios>div>p {
@@ -387,7 +387,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 83px;
+    margin-top: 60px;
 }
 
 .div-info-evento-green {
@@ -435,7 +435,7 @@ a {
 .widget {
     display: flex;
     justify-content: center;
-    margin-top: 83px;
+    margin-top: 60px;
 }
 
 .header-social-media{
