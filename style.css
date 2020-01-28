@@ -1,6 +1,8 @@
 body{
 margin: 0;
-
+background-color:#1B358E;
+background-image: url('./Malha_SemFundo.png');
+background-repeat:  repeat;
 }
 
 .hearder{
@@ -35,10 +37,9 @@ margin: 0;
 .white-board{
     position: absolute;
     background-color: #E5E5E5;;
-    height: 300vh;
     width: 80%;
     border-radius: 5%;
-    top: 25%;
+    top: 40%;
 }
 
 .header-buttons{
@@ -177,7 +178,6 @@ color: #2E2D2D;
 
      .white-board{
         top: 20%;
-        bottom: 0;
     }
 
     #part-2{
