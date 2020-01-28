@@ -190,7 +190,7 @@ a {
 .combo-palestrantes{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 @media (max-width: 600px) {

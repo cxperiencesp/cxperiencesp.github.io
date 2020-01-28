@@ -1,4 +1,3 @@
-function jumpto(id) {
-    window.location.hash = `#${id}`
-    
-}
+var palestrantes = 'palestrantes';
+
+document.body.innerHTML = palestrantes.anchor('palestrantes')
