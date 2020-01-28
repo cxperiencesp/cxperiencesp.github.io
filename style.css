@@ -1,0 +1,43 @@
+body{
+margin: 0;
+
+
+}
+
+.hearder{
+    position: relative ;
+    background-color:#F25E6A;
+    height: 30vw;
+    width: 100vw;
+}
+
+.page-color{
+    background-color:#1B358E ;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.malhas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lateral{
+    width: 10%;
+    height: 100vh;
+}
+
+.div-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.white-board{
+    position: absolute;
+    background-color: #E5E5E5;;
+    height: 130vh;
+    width: 80%;
+    border-radius: 5%;
+    top: 15%;
+}
