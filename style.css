@@ -240,7 +240,8 @@ a {
     }
 
     .div-info-evento-black-local>p{
-        align-self: left !important;
+        display: flex;
+        align-self: flex-start;
     }
     .itens-header{
         width: 150px;
@@ -262,7 +263,7 @@ a {
     .white-board {
         top: 20%;
         bottom: 0;
-        height: 430vh;
+        height: 570vh;
         border-radius: 1%;
     }      
     
