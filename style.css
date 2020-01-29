@@ -200,6 +200,23 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 60px;
+}
+
+.div-info-evento-black-local{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family: Actor;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 79px;
+    letter-spacing: 0.03em;
+    color: #1E1E1E;
+}
+
+.div-info-evento-black-local>p{
+    align-self: center;
 }
 
 @media (max-width: 600px) {
@@ -215,6 +232,16 @@ a {
         letter-spacing: 0.01em;
     }
 
+    .div-info-evento-black-local{
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .div-info-evento-black-local>p{
+        align-self: left !important;
+    }
     .itens-header{
         width: 150px;
     }
@@ -309,12 +336,23 @@ a {
     }
     .div-horarios>div>p {
         font-size: 18px!important;
+       
     }
     .div-info-evento-green {
         font-size: 18px!important;
+        line-height: 10 !important;
+        margin-right: 20px !important;
     }
     .div-info-evento-black {
         font-size: 18px!important;
+        line-height: 10 !important;
+    }
+    .info-event{
+        display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: -120px;
     }
     .div-n-comparecer>p {
         font-size: 18px!important;
@@ -324,9 +362,17 @@ a {
         margin-top: 20px!important;
     }
 
+    .div-horarios{
+        margin-bottom: 60px;
+    }
+
     .div-palestrantes{
         flex: column!important;
         flex-wrap:wrap;
+    }
+
+    .div-palestrantes-descricao{
+        margin-bottom: 15px;
     }
 
     .div-palestrantes-circulo{
@@ -358,8 +404,23 @@ a {
    .header-social-media-items{
     flex-direction: column;
     }
+
+    .combo-event{
+        
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+     }
+
+
     
     
+    
+}
+
+.combo-event{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .div-palestrantes {
@@ -375,6 +436,7 @@ a {
     background-color: #1E1E1E;
     margin-top: 60px;
     margin-bottom: 45px;
+    align-self: center;
 }
 
 .div-palestrantes-descricao {
